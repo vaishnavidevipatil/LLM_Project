@@ -1,6 +1,6 @@
 sentence-transformers
 uvicorn
-ctrtransformers
+ctransformers        
 fastapi
 ipykernel
 langchain

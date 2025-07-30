@@ -1,0 +1,4 @@
+requests>=2.0.0
+flask>=2.2.0        # (if using Flask for API)
+streamlit>=1.20.0   # (if building a UI)
+openai>=1.0.0       # (if using OpenAI-style SDK with local Ollama proxy)

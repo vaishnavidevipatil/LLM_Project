@@ -1,0 +1,17 @@
+After installing ollama 
+1. ollama pull nomic-embed-text
+
+2. ollama pull qwen3:4b-instruct
+
+3. ollama run qwen3:4b-instruct
+
+
+pip install uv
+
+uv add requests numpy
+
+uv sync
+by toml file
+
+run file 
+uv run rag_proj.py

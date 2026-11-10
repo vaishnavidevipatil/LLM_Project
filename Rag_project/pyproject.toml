@@ -1,0 +1,16 @@
+[project]
+name = "rag-project"
+version = "0.1.0"
+description = "A local RAG project using Ollama, document chunking, and vector search."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "requests>=2.31",
+    "pypdf>=5.0",
+    "python-docx>=1.1",
+    "chromadb>=0.5",
+]
+
+[tool.uv]
+package = false

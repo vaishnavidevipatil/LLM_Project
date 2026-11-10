@@ -1,0 +1,22 @@
+[project]
+name = "llm-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Vaishnavi Devi Patil", email = "145427408+vaishnavidevipatil@users.noreply.github.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "numpy>=2.5.4",
+    "pypdf>=7.0.0",
+    "python-docx>=1.2.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+llm-project = "llm_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
